@@ -28,7 +28,7 @@ public class Alumno {
         System.out.println("---Reporte del alumno---");
         System.out.println("Nombre : " + nombre);
         System.out.println("matricula: " + matricula);
-        System.out.println("Promedio final");
+        System.out.println("Promedio final" + promedio);
     }
 
     }
