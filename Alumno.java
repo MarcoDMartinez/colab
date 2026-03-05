@@ -7,8 +7,13 @@ public class Alumno {
         this.nombre = nombre;
     }
 
+    public void setpromedio(double promedio){
+         this.promedio = promedio;
+    }
 
-
+    public double promedio(){
+        return this.promedio();
+    }
 
 
     //metodo del alumno
