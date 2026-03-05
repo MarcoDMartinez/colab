@@ -5,8 +5,9 @@ public class Alumno {
     protected int calificacion2;
     protected int calificacion3;
 
-    
-
+    public Alumno(String nombre){
+        this.nombre = nombre;
+    }
 
 
     }
