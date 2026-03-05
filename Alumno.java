@@ -1,5 +1,5 @@
 public class Alumno {
-    protected String nombre;
+    String nombre;
     protected String matricula;
     protected int calificacion1;
     protected int calificacion2;
@@ -8,6 +8,7 @@ public class Alumno {
     public Alumno(String nombre){
         this.nombre = nombre;
     }
+
 
 
     }
