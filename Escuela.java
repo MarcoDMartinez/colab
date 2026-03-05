@@ -1,4 +1,5 @@
 public class Escuela extends Alumno{
+<<<<<<< HEAD
 
         public Escuela(String nombre, String matricula){
 
@@ -15,5 +16,7 @@ public class Escuela extends Alumno{
         System.out.println("matricula: " + matricula);
         System.out.println("Registro oficial escolar.");
     }
+=======
+>>>>>>> fa173eb4411357b840d188b6b3716ce716c65205
     
 }
