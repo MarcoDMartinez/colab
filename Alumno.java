@@ -1,5 +1,5 @@
 public class Alumno {
-    String nombre;
+    protected String nombre;
     protected  String matricula;
     private  double promedio;
 
