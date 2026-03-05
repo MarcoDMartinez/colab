@@ -1,23 +1,24 @@
 public class Alumno {
     String nombre;
     private  String matricula;
-    protected double calificacion1;
-    protected double  calificacion2;
-    protected double  calificacion3;
+    private  double promedio;
 
     public Alumno(String nombre){
         this.nombre = nombre;
     }
 
+
+
+
+
     //metodo del alumno
     //mostrar calcular promedio
-    public double calcularPromedio(){
-        return (calificacion1 + calificacion2 + calificacion3) / 3;
-    }
 
     public void mostrarAlumno(){
         System.out.println("---Reporte del alumno---");
-        System.out.println("Nombre : +");
+        System.out.println("Nombre : " + nombre);
+        System.out.println("matricula: " + matricula);
+        System.out.println("Promedio final");
     }
 
     }
