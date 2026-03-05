@@ -1,6 +1,6 @@
 public class Alumno {
     String nombre;
-    protected String matricula;
+    private  String matricula;
     protected double calificacion1;
     protected double  calificacion2;
     protected double  calificacion3;
@@ -17,7 +17,7 @@ public class Alumno {
 
     public void mostrarAlumno(){
         System.out.println("---Reporte del alumno---");
-        System.out.println("");
+        System.out.println("Nombre : +");
     }
 
     }
