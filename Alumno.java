@@ -3,8 +3,9 @@ public class Alumno {
     protected  String matricula;
     private  double promedio;
 
-    public Alumno(String nombre){
+    public Alumno(String nombre, String matricula){
         this.nombre = nombre;
+        this.matricula = matricula;
     }
 
     public void setpromedio(double promedio){
