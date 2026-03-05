@@ -15,6 +15,10 @@ public class Alumno {
         return this.promedio();
     }
 
+    public void calcularPromedio(){
+        System.out.println("Promedio: " + this.promedio);
+    }
+
 
     //metodo del alumno
     //mostrar calcular promedio
