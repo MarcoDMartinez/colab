@@ -9,8 +9,10 @@ public class Main {
             int calificacion2 = pd1.pedirEntero("Escribe la segunda calificación");
             int calificacion3 = pd1.pedirEntero("Escribe la tercera calificación");
 
-            double resultado = (calificacion1 + calificacion2 + calificacion3) / 3;
-            
+            alumno1.setpromedio((calificacion1 + calificacion2 + calificacion3) / 3);
+
+            alumno1.calcularPromedio();
+
 
     }
     
